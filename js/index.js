@@ -9,7 +9,7 @@ function onUpdateAccountProfile(e){
 
     e.preventDefault()
     console.log(`first name: ${inputFirstName.value}`)
-    console.log(`last name: ${inputFirstName.value}`)
+    console.log(`last name: ${inputLastName.value}`)
 
     const fullName = inputFirstName.value + " " + inputLastName.value
 
